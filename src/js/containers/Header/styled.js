@@ -6,14 +6,12 @@ export const HeaderWrapper = styled.div`
 `;
 
 export const HeaderLeft = styled.div`
-  width: 479px;
+  width: ${rem(479)};
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
 
-export const HeaderRight = styled.div`
-`;
+export const HeaderRight = styled.div``;
 
-export const HeaderLink = styled.div`
-`;
+export const HeaderLink = styled.div``;

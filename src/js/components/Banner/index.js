@@ -36,7 +36,7 @@ const MainBanner = () => {
           <p>A Jüssi é especialista na criação de lojas usando a plataforma VTEX. 
             Precisa criar sua loja ou migrar de plataforma?
           </p>
-          <button>Veja nossas soluções</button>
+          <S.BannerButton>Veja nossas soluções</S.BannerButton>
         </S.BannerText>
         <S.BannerProducts>
           {images.map(({

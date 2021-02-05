@@ -6,7 +6,6 @@ export const BannerWrapper = styled.div`
   width: 100%;
   height: ${rem(560)};
   background: #03FFA5;
-  /* position: relative; */
 
   h1 {
     font-size: ${rem(64)};
@@ -23,18 +22,18 @@ export const BannerWrapper = styled.div`
   }
 `;
 
+export const BannerButton = styled.button`
+  border: ${rem(1)} solid #000000;
+  box-sizing: border-box;
+  border-radius: ${rem(6)};
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: ${rem(12)} ${rem(24)};
+`;
+
 export const BannerText = styled.div`
   width: ${rem(538 - 87)};
-
-  button {
-    border: ${rem(1)} solid #000000;
-    box-sizing: border-box;
-    border-radius: ${rem(6)};
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px 24px;
-  }
 `;
 
 export const TwoBars = styled.div`

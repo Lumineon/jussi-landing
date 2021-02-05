@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {ReactComponent as MainLogo} from '../../icons/general/logoJussiVectorGreen.svg';
+import { ReactComponent as MainLogo } from '../../icons/general/logoJussiVectorGreen.svg';
 
 import * as S from './styled';
 
