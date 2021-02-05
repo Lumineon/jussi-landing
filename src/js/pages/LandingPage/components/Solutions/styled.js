@@ -2,11 +2,9 @@ import styled from 'styled-components';
 import { rem } from 'polished';
 
 export const ContactWrapper = styled.div`
-  height: ${rem(557)};
   padding: ${rem(56)};
   width: 70%;
   margin: 0 auto;
-  background: red;
 `;
 
 export const ContactContent = styled.div``;

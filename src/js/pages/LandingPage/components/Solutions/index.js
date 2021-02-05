@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Cards from './components/Cards/index';
+
 import * as S from './styled';
 
 const Contact = () => {
@@ -7,8 +9,9 @@ const Contact = () => {
     <S.ContactWrapper>
       <S.ContactContent>
         <S.ContactTitle>
-          <span>{`//`}</span><h2>Nossas soluções</h2>
+          <span>{`//`}</span><h2 id='solutions'>Nossas soluções</h2>
         </S.ContactTitle>
+        <Cards />
       </S.ContactContent>
     </S.ContactWrapper>
   );

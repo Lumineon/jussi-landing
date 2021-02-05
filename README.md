@@ -8,11 +8,12 @@ Também foram utilizados a API ~ para o funcionamento da barra de search e o Git
 
 ## Todo
 
--Deixar h2 como componente title;
--Transformar cores muito usadas em variável;
--Transformar botões em componentes;
--Arrumar os outlines dos botões;
--Conferir tamanhos de rem para %;
--Arrumar cards do banner principal e transforma-los em componentes separados;
--Cards nossas soluções como componentes separados;
--Limpeza do código;
+### -Deixar h2 como componente title;
+### -Transformar cores muito usadas em variável;
+### -Transformar botões em componentes;
+### -Arrumar os outlines dos botões;
+### -Conferir tamanhos de rem para %;
+### -Arrumar cards do banner principal e transforma-los em componentes separados;
+### -Cards nossas soluções como componentes separados;
+### -Animações para links do header;
+### -Limpeza do código;

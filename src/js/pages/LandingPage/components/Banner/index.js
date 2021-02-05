@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Fridge from '../../../images/geladeira.png';
-import Drink from '../../../images/whisky.png';
-import Mixer from '../../../images/batedeira.png';
+import Fridge from '../../../../../images/geladeira.png';
+import Drink from '../../../../../images/whisky.png';
+import Mixer from '../../../../../images/batedeira.png';
 
 import * as S from './styled';
 

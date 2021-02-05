@@ -8,11 +8,13 @@ const Header = () => {
   return(
     <S.HeaderWrapper>
       <S.HeaderLeft>
-        <MainLogo />
-        <S.HeaderLink>
+        <S.HeaderLink href='/'>
+          <MainLogo />
+        </S.HeaderLink>
+        <S.HeaderLink href={'#solutions'}>
           Nossas Soluções
         </S.HeaderLink>
-        <S.HeaderLink>
+        <S.HeaderLink href={'#meetUs'}>
           Conheça a Jüssi
         </S.HeaderLink>
       </S.HeaderLeft>

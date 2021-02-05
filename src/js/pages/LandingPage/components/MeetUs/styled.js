@@ -30,6 +30,9 @@ export const MeetUsLeft = styled.div`
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: ${rem(24)};
+    font-size: ${rem(32)};
+    line-height: ${rem(40)};
+    width: 84%;
   }
 `;
 
