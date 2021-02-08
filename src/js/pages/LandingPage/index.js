@@ -2,13 +2,13 @@ import React from 'react';
 
 import Header from '../../containers/Header';
 import Footer from '../../containers/Footer';
+import Solutions from '../../containers/Solutions';
+import Newsletter from '../../containers/Newsletter';
 
 import MainBanner from './components/Banner';
 import MainStoresBar from './components/MainStoresBar';
-import Solutions from './components/Solutions';
 import MeetUs from './components/MeetUs';
 import Contact from './components/Contact';
-import Newsletter from './components/Newsletter';
 
 import * as S from './styled';
 

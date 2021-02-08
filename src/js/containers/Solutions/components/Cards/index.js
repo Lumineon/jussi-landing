@@ -1,6 +1,6 @@
 import React from 'react';
 
-import productList from '../../../../../../resources/products';
+import productList from '../../../../resources/products';
 
 import * as S from './styled';
 

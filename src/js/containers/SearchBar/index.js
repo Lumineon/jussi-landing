@@ -7,23 +7,10 @@ import { ReactComponent as SearchButton } from '../../icons/general/search.svg'
 import * as S from './styled';
 
 const SearchBar = () => {
-  const [state, setState] = useState({
-    data: null,
-    error: null,
-    isLoading: false,
-  });
   const [inputText, setInputText] = useState('');
   const url = `http://viacep.com.br/ws/${inputText}/json/`;
+  const {data, handleFetch, isError} = useFetch(url);
   const placeholder = "Buscar";
-
-  const fetchData = useCallback((url) => {
-    fetch(url)
-    .then(resp => resp.json())
-    .then(json => setState({
-      isLoading: true,
-      data: json,
-    }))
-  })
   
   function showInfo(data) {
     if (!data.erro) {
@@ -61,14 +48,15 @@ const SearchBar = () => {
         />
         <label htmlFor="searchBar">
           <S.SearchBarIcon
-            onClick={() => fetchData(url)}
+            onClick={() => handleFetch()}
           >
             <SearchButton />
           </S.SearchBarIcon>
         </label>
       </S.SearchBarWrapper>
       <S.SearchBarContent>
-        {state.data ? showInfo(state.data) : false}
+        {isError ? <div><span>Digite um CEP válido!</span></div> : false}
+        {data ? showInfo(data) : false}
       </S.SearchBarContent>
     </>
   );
