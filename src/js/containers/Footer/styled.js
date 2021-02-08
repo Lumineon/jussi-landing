@@ -17,4 +17,12 @@ export const FooterContent = styled.div`
 
 export const FooterLeft = styled.div``;
 
-export const FooterRight = styled.div``;
+export const FooterLink = styled.a`
+  text-decoration: none;
+`;
+
+export const FooterRight = styled.div`
+  width: 13%;
+  display: flex;
+  justify-content: space-between;
+`;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Cards from './components/Cards/index';
+import Cards from './components/Cards';
 
 import * as S from './styled';
 

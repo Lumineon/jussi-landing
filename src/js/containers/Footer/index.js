@@ -11,14 +11,26 @@ const Footer = () => {
   return (
     <S.FooterWrapper>
       <S.FooterContent>
+
         <S.FooterLeft>
           <WppCompanyLogo />
         </S.FooterLeft>
+
         <S.FooterRight>
-          <FacebookLogo />
-          <InstagramLogo />
-          <LinkedinLogo />
+
+          <S.FooterLink href='https://www.facebook.com/agencia.jussi/'>
+            <FacebookLogo />
+          </S.FooterLink>
+
+          <S.FooterLink href='https://www.instagram.com/jussi/?hl=pt-br'>
+            <InstagramLogo />
+          </S.FooterLink>
+
+          <S.FooterLink href='https://www.linkedin.com/company/agencia-jussi?originalSubdomain=br'>
+            <LinkedinLogo />
+          </S.FooterLink>
         </S.FooterRight>
+
       </S.FooterContent>
     </S.FooterWrapper>
   );

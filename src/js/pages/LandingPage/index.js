@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Header from '../../containers/Header/index';
-import Footer from '../../containers/Footer/index';
+import Header from '../../containers/Header';
+import Footer from '../../containers/Footer';
 
-import MainBanner from './components/Banner/index';
-import MainStoresBar from './components/MainStoresBar/index';
-import Solutions from './components/Solutions/index';
-import MeetUs from './components/MeetUs/index';
-import Contact from './components/Contact/index';
-import Newsletter from './components/Newsletter/index';
+import MainBanner from './components/Banner';
+import MainStoresBar from './components/MainStoresBar';
+import Solutions from './components/Solutions';
+import MeetUs from './components/MeetUs';
+import Contact from './components/Contact';
+import Newsletter from './components/Newsletter';
 
 import * as S from './styled';
 

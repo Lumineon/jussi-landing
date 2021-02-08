@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SearchBar from '../../../SearchBar/index'
+import SearchBar from '../../../SearchBar'
 import { ReactComponent as Cart } from '../../../../icons/general/shopping-cart.svg';
 
 import * as S from './styled';

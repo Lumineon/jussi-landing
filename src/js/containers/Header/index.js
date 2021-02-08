@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Navigation from './components/Navigation/index';
-import UserFunctions from './components/UserFunctions/index';
+import Navigation from './components/Navigation';
+import UserFunctions from './components/UserFunctions';
 
 import * as S from './styled';
 
