@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { ReactComponent as MainLogo } from '../../icons/general/logoJussiVectorGreen.svg';
+import Navigation from './components/Navigation/index';
+import UserFunctions from './components/UserFunctions/index';
 
 import * as S from './styled';
 
@@ -8,19 +9,13 @@ const Header = () => {
   return(
     <S.HeaderWrapper>
       <S.HeaderLeft>
-        <S.HeaderLink href='/'>
-          <MainLogo />
-        </S.HeaderLink>
-        <S.HeaderLink href={'#solutions'}>
-          Nossas Soluções
-        </S.HeaderLink>
-        <S.HeaderLink href={'#meetUs'}>
-          Conheça a Jüssi
-        </S.HeaderLink>
+        <Navigation />
       </S.HeaderLeft>
-      <S.HeaderRight>
 
+      <S.HeaderRight>
+        <UserFunctions />
       </S.HeaderRight>
+
     </S.HeaderWrapper>
   );
 };

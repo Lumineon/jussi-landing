@@ -12,7 +12,7 @@ export const NewsletterWrapper = styled.div`
 `;
 
 export const NewsletterContent = styled.div`
-  width: 49%;
+  width: 41%;
 `;
 
 export const NewsletterTitle = styled.div`

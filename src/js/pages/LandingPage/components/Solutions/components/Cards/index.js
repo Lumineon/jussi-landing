@@ -23,7 +23,7 @@ const Card = () => {
                   )
                 )}
               </S.CardFeaturesWrapper>
-              <S.CardButton href={link}>Ver Solução</S.CardButton>
+              <S.CardButton href={link}>Ver solução</S.CardButton>
             </S.CardItem>
           ))}
       </S.CardContent>
