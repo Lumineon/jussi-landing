@@ -5,7 +5,7 @@ export const BannerWrapper = styled.div`
   display: flex;
   width: 100%;
   height: ${rem(560)};
-  background: #03FFA5;
+  background: ${({ theme }) => theme.colors.green};
 
   h1 {
     font-size: ${rem(64)};
@@ -23,7 +23,7 @@ export const BannerWrapper = styled.div`
 `;
 
 export const BannerButton = styled.button`
-  border: ${rem(1)} solid #000000;
+  border: ${rem(1)} solid ${({ theme }) => theme.colors.black};
   box-sizing: border-box;
   border-radius: ${rem(6)};
   display: flex;
@@ -41,13 +41,13 @@ export const TwoBars = styled.div`
   line-height: ${rem(77)};
   width: ${rem(87)};
   text-align: left;
-  color: white;
+  color: ${({ theme }) => theme.colors.white};
 `;
 
 export const BannerImagesWrapper = styled.div`
-  background: white;
+  background: ${({ theme }) => theme.colors.white};
   padding: ${rem(16)} ${rem(20)};
-  border: ${rem(1)} solid #F2F2F2;
+  border: ${rem(1)} solid ${({ theme }) => theme.colors.grey};
   border-radius: ${rem(8)};
   box-shadow: 0px ${rem(32)} ${rem(32)} rgba(0, 0, 0, 0.25);
   display: flex;
@@ -87,13 +87,13 @@ export const BannerImage = styled.img`
 `;
 
 export const BannerLink = styled.button`
-  color: #EE0E7D;
+  color: ${({ theme }) => theme.colors.pink};
   line-height: ${rem(24)};
-  outline-color: #EE0E7D;
+  outline-color: ${({ theme }) => theme.colors.pink};
   outline-width: ${rem(1)};
   border-radius: ${rem(24)};
   box-sizing: border-box;
-  border: ${rem(1)} solid #EE0E7D;
+  border: ${rem(1)} solid ${({ theme }) => theme.colors.pink};
   padding: ${rem(12)} ${rem(24)};
   margin-top: ${rem(12)};
 `;

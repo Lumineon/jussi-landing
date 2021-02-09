@@ -4,16 +4,4 @@ Esse projeto foi feito para a segunda etapa de seleção da empresa Jüssi, tend
 
 ### Tecnologias
 O React foi usado como base e os Styled Components foram utilizados para estilização.
-Também foram utilizados a API ~ para o funcionamento da barra de search e o Github para armazenamento do repositório.
-
-## Todo
-
-### -Deixar h2 como componente title;
-### -Transformar cores muito usadas em variável;
-### -Transformar botões em componentes;
-### -Conferir tamanhos de rem para %;
-### -Arrumar cards do banner principal e transforma-los em componentes separados;
-### -Cards nossas soluções como componentes separados;
-### -Animações para links do header;
-### -Limpeza do código;
-### -Estilização da resposta do fetch da search bar;
+Também foram utilizados a API Pública "Via CEP" de consulta de CEPs para o funcionamento da barra de search e o Github para armazenamento do repositório.

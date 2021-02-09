@@ -13,7 +13,7 @@ export const CardItem = styled.div`
   flex-direction: column;
   width: 33.3%;
   margin-right: ${rem(20)};
-  border: ${rem(1)} solid #F2F2F2;
+  border: ${rem(1)} solid ${({ theme }) => theme.colors.grey};
   border-radius: ${rem(4)};
   padding: ${rem(16)};
   text-align: left;
@@ -22,8 +22,8 @@ export const CardItem = styled.div`
 export const CardName = styled.span``;
 
 export const CardImage = styled.div`
-  background-color: #F2F2F2;
-  border: ${rem(1)} solid #F2F2F2;
+  background-color: ${({ theme }) => theme.colors.grey};
+  border: ${rem(1)} solid ${({ theme }) => theme.colors.grey};
   border-radius: 50%;
   width: ${rem(100)};
   height: ${rem(100)};
@@ -37,7 +37,7 @@ export const CardImage = styled.div`
 
 export const CardDescription = styled.span`
   font-size: ${rem(12)};
-  color: #EE0E7D;
+  color: ${({ theme }) => theme.colors.pink};
   margin: ${rem(16)} 0;
 `;
 export const CardFeaturesWrapper = styled.ul`
@@ -55,6 +55,6 @@ export const CardButton = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #03FFA5;
+  background-color: ${({ theme }) => theme.colors.green};
   border-radius: ${rem(6)};
 `;

@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import { rem } from 'polished';
 
 export const ContactWrapper = styled.div`
-  background-color: #EE0E7D;
-  color: white;
+  background-color: ${({ theme }) => theme.colors.pink};
+  color: ${({ theme }) => theme.colors.white};
   height: ${rem(480)};
   display: flex;
   justify-content: center;
@@ -25,4 +25,11 @@ export const ContactWrapper = styled.div`
 
 export const ContactContent = styled.div`
   width: 49%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  span { 
+    text-align: center;
+  }
 `;

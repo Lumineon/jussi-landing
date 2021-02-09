@@ -15,7 +15,7 @@ export const MeetUsContent = styled.div`
 
 export const MeetUsButton = styled.button`
   margin-top: ${rem(24)};
-  border: 1px solid #000000;
+  border: 1px solid ${({ theme }) => theme.colors.black};
   box-sizing: border-box;
   border-radius: 6px;
   padding: 12px 24px;
@@ -43,7 +43,7 @@ export const MeetUsImage = styled.img`
 `;
 
 export const MeetUsBackground = styled.div`
-  background-color: #F2F2F2;
+  background-color: ${({ theme }) => theme.colors.grey};
   width: 50%;
   display: block;
   height: 648px;

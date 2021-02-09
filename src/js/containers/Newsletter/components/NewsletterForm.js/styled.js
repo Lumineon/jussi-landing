@@ -6,7 +6,7 @@ export const NewsletterFormWrapper = styled.div`
 `;
 
 export const NewsletterFormContent = styled.div`
-  border-bottom: ${rem(1)} solid #03FFA5;
+  border-bottom: ${rem(1)} solid ${({ theme }) => theme.colors.green};
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,16 +18,16 @@ export const NewsletterInput = styled.input`
   width: ${rem(320)};
   height: ${rem(60)};
   border: none;
-  background-color: #000000;
-  color: white;
+  background-color: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.white};
 
   ::-webkit-input-placeholder {
-  color: white;
+  color: ${({ theme }) => theme.colors.white};
 }
 `;
 
 export const NewsletterSubmit = styled.button`
   text-transform: uppercase;
   font-weight: 700;
-  color: #03FFA5;
+  color: ${({ theme }) => theme.colors.green};
 `;

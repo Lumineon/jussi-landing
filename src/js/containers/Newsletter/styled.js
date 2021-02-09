@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import { rem } from 'polished';
 
 export const NewsletterWrapper = styled.div`
-  background-color: #000000;
-  color: white;
+  background-color: ${({ theme }) => theme.colors.black};
+  color: ${({ theme }) => theme.colors.white};
   height: ${rem(436)};
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@ export const NewsletterTitle = styled.div`
 
   span {
     font-size: ${rem(32)};
-    color: #03FFA5;
+    color: ${({ theme }) => theme.colors.green};
     font-weight: 700;
   }
 

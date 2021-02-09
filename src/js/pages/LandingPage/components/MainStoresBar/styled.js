@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { rem } from 'polished';
 
 export const StoresBarWrapper = styled.div`
-  background-color: #F2F2F2;
+  background-color: ${({ theme }) => theme.colors.grey};
 `;
 
 export const StoresBarContent = styled.div`

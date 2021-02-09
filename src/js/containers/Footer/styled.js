@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { rem } from 'polished';
 
 export const FooterWrapper = styled.div`
-  background-color: #000000;
+  background-color: ${({ theme }) => theme.colors.black};
   height: ${rem(80)};
 `;
 

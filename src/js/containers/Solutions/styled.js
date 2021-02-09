@@ -21,7 +21,7 @@ export const ContactTitle = styled.div`
   }
 
   span {
-    color: #03FFA5;
+    color: ${({ theme }) => theme.colors.green};
     font-size: ${rem(32)};
     font-weight: 700;
   }
